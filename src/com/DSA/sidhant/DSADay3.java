@@ -43,15 +43,15 @@ public class DSADay3 {
 //        while(t != 0){
 //            int n = scn.nextInt();
 //
-//            boolean isprime = true;
+//            boolean isPrime = true;
 //            for(int div = 2 ; div*div <= n ; div++){
 //                if(n%div == 0){
 //                    // factor
-//                    isprime = false;
+//                    isPrime = false;
 //                    break;
 //                }
 //            }
-//            if(isprime){
+//            if(isPrime){
 //                System.out.println("prime");
 //            }else{
 //                System.out.println("not prime");
