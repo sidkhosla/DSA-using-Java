@@ -16,25 +16,25 @@ public class DSADay3 {
 //5
 //    My solution--
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int t = scn.nextInt();
-
-
-        for (int i = 1; i <= t; i++) {
-            boolean flag = true;
-            int n = scn.nextInt();
-            for(int div = 2;div<=n-1;div++){
-                if(n % div == 0){
-                    flag = false;
-                    break;
-                }
-            }
-            if(flag){
-                System.out.println("prime");
-            }else{
-                System.out.println("not prime");
-            }
-        }
+//        Scanner scn = new Scanner(System.in);
+//        int t = scn.nextInt();
+//
+//
+//        for (int i = 1; i <= t; i++) {
+//            boolean flag = true;
+//            int n = scn.nextInt();
+//            for(int div = 2;div<=n-1;div++){
+//                if(n % div == 0){
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//            if(flag){
+//                System.out.println("prime");
+//            }else{
+//                System.out.println("not prime");
+//            }
+//        }
 //        ------ optimal solution
 //        Scanner scn = new Scanner(System.in);
 //
@@ -58,6 +58,23 @@ public class DSADay3 {
 //            }
 //            t--;
 //        }
+//        Q - 1. You've to print first n fibonacci numbers.
+//2. Take as input "n", the count of fibonacci numbers to print.
+//3. Print first n fibonacci numbers.
+//      ---------------------  Solution
+        Scanner scn = new Scanner(System.in);
 
+        int n = scn.nextInt();
+
+        int first = 0 , second = 1;
+
+        for(int i = 1 ; i <= n ; i = i + 1){
+
+            int third = first + second;
+            System.out.println(first);
+
+            first = second;
+            second = third;
+        }
     }
 }
