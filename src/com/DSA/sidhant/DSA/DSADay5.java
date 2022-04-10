@@ -1,4 +1,4 @@
-package com.DSA.sidhant;
+package com.DSA.sidhant.DSA;
 
 import java.util.Scanner;
 
