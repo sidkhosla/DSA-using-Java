@@ -2,7 +2,9 @@ package com.DSA.sidhant.arrays;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Scanner;
+//1. You are given a number n, representing the size of array a.
+//2. You are given n numbers, representing elements of array a.
+//3. You are required to reverse the contents of array a.
 
 public class reverse_an_array {
     public static void display(int[] a){
