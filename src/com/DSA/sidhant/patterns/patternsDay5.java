@@ -43,11 +43,11 @@ public class patternsDay5 {
 
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        for(int i = 0; i < n; i++){
-            int icj=1;
-            for(int j = 0; j <= i; j++){
-                System.out.print(icj + "\t");
-                icj = (icj * (i - j)) / (j + 1);
+        for(int row = 0; row < n; row++){
+            int ncr=1;
+            for(int col = 0; col <= row; col++){
+                System.out.print(ncr + "\t");
+                ncr = (ncr * (row - col)) / (col + 1);
             }
             System.out.println();
         }
