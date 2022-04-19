@@ -1,6 +1,5 @@
 package com.DSA.sidhant.arrays;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class find_element_in_array {
