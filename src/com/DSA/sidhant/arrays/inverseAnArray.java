@@ -11,7 +11,5 @@ package com.DSA.sidhant.arrays;
 public class inverseAnArray {
     public static void main(String[] args) {
 
-//hw
-
     }
 }
