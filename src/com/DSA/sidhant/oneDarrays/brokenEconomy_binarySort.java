@@ -1,10 +1,8 @@
-package com.DSA.sidhant.arrays;
+package com.DSA.sidhant.oneDarrays;
 
 public class brokenEconomy_binarySort {
     public static void main(String[] args) {
         //hw
-
-
 
     }
 }

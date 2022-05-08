@@ -1,4 +1,4 @@
-package com.DSA.sidhant.arrays;
+package com.DSA.sidhant.oneDarrays;
 
 public class binarySearch_nados {
     public int search(int[] nums, int target) {

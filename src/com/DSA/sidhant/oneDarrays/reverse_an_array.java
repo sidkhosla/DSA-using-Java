@@ -1,4 +1,4 @@
-package com.DSA.sidhant.arrays;
+package com.DSA.sidhant.oneDarrays;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
