@@ -3,7 +3,7 @@ package com.DSA.sidhant.twoDarrays;
 import java.util.Scanner;
 
 //https://nados.io/question/the-state-of-wakanda-1
-public class Wakanda_1 {
+public class wakanda_1 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int nr = scn.nextInt();
