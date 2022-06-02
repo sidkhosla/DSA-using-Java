@@ -1,4 +1,4 @@
-package com.DSA.sidhant.twoDarrays;
+package com.DSA.sidhant.ArrayList;
 
 import java.util.ArrayList;
 
