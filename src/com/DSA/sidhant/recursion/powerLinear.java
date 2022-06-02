@@ -3,7 +3,7 @@ package com.DSA.sidhant.recursion;
 public class powerLinear {
     public static void main(String[] args) throws Exception {
         // write your code here
-        System.out.println(power(2, 5));
+        System.out.println(power(5, 8));
     }
 
     public static int power(int x, int n){
