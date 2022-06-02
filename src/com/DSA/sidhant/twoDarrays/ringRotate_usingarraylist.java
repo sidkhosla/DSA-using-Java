@@ -3,7 +3,7 @@ package com.DSA.sidhant.twoDarrays;
 import java.util.ArrayList;
 import java.util.Scanner;
 //07 may 2022
-public class ringRotate {
+public class ringRotate_usingarraylist {
     public static void main(String[] args) {
         // // ring Rotate
         Scanner scn = new Scanner(System.in);

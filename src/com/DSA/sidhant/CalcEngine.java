@@ -57,7 +57,7 @@ public class CalcEngine {
     private static void displayResult(char opCode, double leftVal, double rightVal, double result) {
         char symbol = symbolFromOpCode(opCode);
 //String Builder
-//        StringBuilder builder = new StringBuilder(20);
+//        StringBuilderConcept builder = new StringBuilderConcept(20);
 //        builder.append(leftVal);
 //        builder.append(" ");
 //        builder.append(symbol);
